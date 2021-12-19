@@ -24,7 +24,7 @@ export class DashboardComponent implements OnInit {
   isLoading = false;
   editValue = '';
   submitEditValue = '';;
-  maxAmount = '';
+  maxAmount = 0;
   cardInfo = {
     cardCode: '',
     name: '',
@@ -250,7 +250,7 @@ export class DashboardComponent implements OnInit {
 
   // 聚焦时触发
   formatChangeValue() {
-    this.editValue = this.submitEditValue;
+    this.editValue = parseFloat(this.submitEditValue).toFixed(2);
   }
 
   // 失焦时触发
@@ -270,7 +270,7 @@ export class DashboardComponent implements OnInit {
       this.submitEditValue = this.submitEditValue.substring(1);
     }
     this.submitEditValue = parseFloat(this.submitEditValue).toFixed(2);
-    if (parseFloat(this.submitEditValue) > parseFloat(this.maxAmount)) {
+    if (parseFloat(this.submitEditValue) > Number(this.maxAmount)) {
       this.msg.error('新晋额度不允许超过最大额！');
       return;
     }
@@ -345,7 +345,7 @@ export class DashboardComponent implements OnInit {
     });
 
     this.maximumAmount.subscribe((data) => {
-      this.maxAmount = JSON.stringify(data);
+      this.maxAmount = parseFloat(JSON.stringify(data));
       return data;
     });
   }

@@ -1,0 +1,16 @@
+.error-container {
+  background: #000;
+  height: 100%;
+  color: #fff;
+
+  .info-container {
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    color: #fff;
+
+    .error-title {
+      font-size: 60px;
+    }
+  }
+}

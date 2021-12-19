@@ -1,0 +1,26 @@
+<div class="content" role="main">
+  <div class="success-icon">
+    <i class="iconfont success-info-icon">&#xe600;</i>
+  </div>
+
+  <div class="success-message">
+    Request Submit Successfully !
+  </div>
+
+  <div class="details-info">
+    <div class="details-title">
+      <div>Transaction Card</div>
+      <div>Increase Limit To</div>
+      <div>Request Submit Date</div>
+    </div>
+    <div class="details-content">
+      <div>{{cardCode}}</div>
+      <div>{{newLimitValue}}</div>
+      <div>{{updateDate}}</div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button class="back-btn" nz-button nzType="primary" (click)="backPage()">返回</button>
+  </div>
+</div>

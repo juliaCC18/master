@@ -1,0 +1,79 @@
+{
+  "id": "2434324",
+  "name": "shoppingproject",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "商城小程序",
+  "glyphs": [
+    {
+      "icon_id": "37283",
+      "name": "天猫提示-正确",
+      "font_class": "zhengque",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "587033",
+      "name": "pie-chart",
+      "font_class": "piechart",
+      "unicode": "e7b2",
+      "unicode_decimal": 59314
+    },
+    {
+      "icon_id": "5712918",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "7542717",
+      "name": "24gl-debitCard",
+      "font_class": "24gl-debitCard",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "551962",
+      "name": "箭头",
+      "font_class": "-arrow",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1166678",
+      "name": "购物车",
+      "font_class": "-cart",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "18629805",
+      "name": "Home",
+      "font_class": "-home",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "435978",
+      "name": "微信",
+      "font_class": "-weixin",
+      "unicode": "e7e5",
+      "unicode_decimal": 59365
+    },
+    {
+      "icon_id": "11519615",
+      "name": "分享",
+      "font_class": "-fenxiang",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "13990886",
+      "name": "map",
+      "font_class": "-map",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}
